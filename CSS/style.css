@@ -12,7 +12,7 @@ body{
 .container{
     width: 960px;
     min-height: 700px;
-    margin: auto;
+    margin: 0 auto;
     background-color: aliceblue;  
 }
 .required{
@@ -81,12 +81,9 @@ input[type=submit] {
     background-color: #1f021f;
     color: black solid;
     padding: 14px 15px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight:bold;
-    align-content:center;
+    color: #ffff;
+  
+  
   }
   
   input[type=submit]:hover {
@@ -98,6 +95,7 @@ footer{
     min-height: 50px;
     background-color:  rgb(36, 13, 70);
     margin-top: 0%;
+    display: flex;
 
     
 }
